@@ -187,7 +187,7 @@ $tweaks = @(
 )
 
 #########
-# Recommended Titus Programs
+# Recommended VictoryLinux Programs
 #########
 
 Function InstallTitusProgs {
@@ -216,14 +216,89 @@ Function Install7Zip {
 	choco install 7zip -y
 }
 
-Function InstallNotepadplusplus {
-	Write-Output "Installing Notepad++"
-	choco install notepadplusplus -y
+Function Installwinrar {
+	Write-Output "Installing WinRAR"
+	choco install winrar -y
+}
+
+Function InstallSublimetext3 {
+	Write-Output "Installing Sublime Text 3"
+	choco install sublimetext3 -y
 }
 
 Function InstallMediaPlayerClassic {
 	Write-Output "Installing Media Player Classic (VLC Alternative)"
 	choco install mpc-hc -y
+}
+
+Function InstallFirefox {
+	Write-Output "Installing Firefox"
+	choco install firefox -y
+}
+
+Function Installchromium {
+	Write-Output "Installing Chromium"
+	choco install chromium -y
+}
+
+Function Installsimplenote {
+	Write-Output "Installing Simplenote"
+	choco install simplenote -y
+}
+
+Function Installvnc-viewer {
+	Write-Output "Installing RealVNC-Viewer"
+	choco install vnc-viewer -y
+}
+
+Function Installvnc-connect {
+	Write-Output "Installing RealVNC-Connect"
+	choco install vnc-connect -y
+}
+ 
+Function Installteamviewer {
+	Write-Output "Installing Teamviewer"
+	choco install teamviewer -y
+}
+ 
+Function Installgimp {
+	Write-Output "Installing GIMP"
+	choco install gimp -y
+}
+ 
+Function Installbitwarden {
+	Write-Output "Installing Bitwarden"
+	choco install bitwarden -y
+}
+ 
+Function Installvirtualbox {
+	Write-Output "Installing Virtualbox"
+	choco install virtualbox -y
+}
+ 
+Function Installonlyoffice {
+	Write-Output "Installing OnlyOffice"
+	choco install onlyoffice -y
+}
+ 
+Function Installdiscord {
+	Write-Output "Installing Discord"
+	choco install discord -y
+}
+ 
+Function Installtwitch {
+	Write-Output "Installing Twitch App"
+	choco install twitch -y
+}
+
+Function Installimageglass {
+	Write-Output "Installing ImageGlass"
+	choco install imageglass -y
+}
+
+Function Installlenovo-thinkvantage-system-update {
+	Write-Output "Installing Lenovo System Update"
+	choco install lenovo-thinkvantage-system-update -y
 }
 
 ##########
